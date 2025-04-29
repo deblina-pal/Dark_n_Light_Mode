@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 16px 32px;
+    background-image: url("light_mode.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin-bottom: 48px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+}
+
+.container {
+    background-image: url("light_mode.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 32px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: black;
+    padding: 32px;
+    margin-top: 24px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #00f0ff80, 0 0 40px #00f0ff40;
+}
+
+.container:hover {
+    box-shadow: 0 0 30px #00f0ff, 0 0 60px #00f0ff80;
+    transform: translateY(-5px);
+}
+
+
+.dark {
+    background-image: url("dark_mode_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #e0e0e0;
+    font-weight: bolder;
+}
+
+.container.dark {
+    background-image: url("dark_mode_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #e0e0e0;
+}
